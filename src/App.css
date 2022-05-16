@@ -1,38 +1,50 @@
-.App {
+
+.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-2.MuiGrid-spacing-md-3.css-1xgjpwf-MuiGrid-root {
+  margin: 10px !important;
+}
+
+/*------------------------------------------Card Changes ---------------------------------------------------------*/
+.MuiTypography-root.MuiTypography-h5.MuiTypography-gutterBottom.css-h93ljk-MuiTypography-root {
+  font-size: 1rem !important;
+  color: white !important;
+  /* background-color: #282c34; */
+  font-weight: 700;
+  font-family: monospace;
+}
+p.MuiTypography-root.MuiTypography-body2.css-r40f8v-MuiTypography-root {
+  color: darkorange !important;
+  font-size: 1rem;
+  font-family: monospace;
+}
+.MuiCardContent-root.css-46bh2p-MuiCardContent-root {
+  background: black;
+}
+.css-46bh2p-MuiCardContent-root:last-child {
+  padding-bottom: 5px;
+}
+.col.col-lg-2.col-md-3.col-sm-4.searchbox {
+  margin: auto;
+  padding: 10px;
+}
+/*------------------------------------------Header Title Changes ---------------------------------------------------------*/
+.header-title
+{
   text-align: center;
+  padding-top: 20px;
+  font-size: 2rem;
+  font-family: monospace;
+  font-weight: 600;
+}
+/*------------------------------------------navbar changes---------------------------------------------------------*/
+.css-hip9hq-MuiPaper-root-MuiAppBar-root
+{
+  background: black !important;
+}
+input.form-control.searchbox {
+  background: #343638;
+  color: #e9ecef !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .css-o69gx8-MuiCardMedia-root {
+object-fit: fill !important;
+} */
