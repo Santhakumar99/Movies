@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import StarRateIcon from '@mui/icons-material/StarRate';
 export default function MediaCard(props) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345 ,bgcolor:"black"}}>
       <CardMedia
         component="img"
         height="180"
@@ -20,7 +20,9 @@ export default function MediaCard(props) {
         <Typography gutterBottom variant="h5" component="div">
                   {props.name}
               </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.secondary" sx={{  color: "darkorange",
+  fontsize: "1rem",
+  fontfamily: "monospace"}}>
         <i class="fa-solid fa-star"></i> {props.rating}
               </Typography>
            

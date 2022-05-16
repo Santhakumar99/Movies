@@ -12,12 +12,12 @@
   font-family: monospace;
 }
 p.MuiTypography-root.MuiTypography-body2.css-r40f8v-MuiTypography-root {
-  color: darkorange !important;
+  /* color: darkorange !important;
   font-size: 1rem;
-  font-family: monospace;
+  font-family: monospace; */
 }
 .MuiCardContent-root.css-46bh2p-MuiCardContent-root {
-  background: black;
+  /* background: black; */
 }
 .css-46bh2p-MuiCardContent-root:last-child {
   padding-bottom: 5px;
@@ -38,7 +38,7 @@ p.MuiTypography-root.MuiTypography-body2.css-r40f8v-MuiTypography-root {
 /*------------------------------------------navbar changes---------------------------------------------------------*/
 .css-hip9hq-MuiPaper-root-MuiAppBar-root
 {
-  background: black !important;
+  /* background: black !important; */
 }
 input.form-control.searchbox {
   background: #343638;

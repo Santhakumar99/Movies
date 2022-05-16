@@ -55,10 +55,10 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 export default function SearchAppBar() {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+    <Box sx={{ flexGrow: 1,bgcolor: "green"}}>
+      <AppBar position="static" sx={{ flexGrow: 1,bgcolor: "black"}}>
               <Toolbar>
-              <SlideshowIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}/>
+              <SlideshowIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1}}/>
               {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
           <Typography
             variant="h6"
