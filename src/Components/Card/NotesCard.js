@@ -17,7 +17,14 @@ export default function MediaCard(props) {
               href={props.link}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography gutterBottom variant="h5" component="div"    sx={{
+                  fontSize: "1rem",
+                  fontFamily: 'monospace',
+              fontWeight: 700,
+            //   letterSpacing: '.3rem',
+              color: 'white',
+              textDecoration: 'none',
+            }}>
                   {props.name}
               </Typography>
         <Typography variant="body2" color="text.secondary" sx={{  color: "darkorange",
